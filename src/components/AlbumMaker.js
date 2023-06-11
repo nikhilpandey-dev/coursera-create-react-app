@@ -8,6 +8,10 @@ class AlbumMaker extends React.Component {
 
     console.log("Entries are:")
     console.log(entries);
+    let radius = 56;
+    const pi = 3.14;
+    // debugger;
+    let area = radius ** 2 * pi;
 
     return (
       <div className="flex-container">
